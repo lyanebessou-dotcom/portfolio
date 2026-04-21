@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | BESSOU-KPEGLO Kwami Lyane</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+}
+
+header {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #0d1117, #161b22);
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    color: #8b949e;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #161b22;
+    padding: 15px;
+}
+
+nav a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    border-left: 4px solid #58a6ff;
+    padding-left: 10px;
+}
+
+.card {
+    background: #161b22;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.skills span {
+    display: inline-block;
+    background: #21262d;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.contact a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #58a6ff;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #8b949e;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>BESSOU-KPEGLO Kwami Lyane</h1>
+    <p>Étudiant en sécurité informatique | Réseaux • Systèmes • Cybersécurité</p>
+</header>
+
+<nav>
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>À propos</h2>
+    <p>
+        Étudiant en sécurité informatique passionné par les réseaux, les systèmes
+        et la cybersécurité. Je développe mes compétences à travers des projets concrets
+        en administration réseau, systèmes et bases de données.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Compétences</h2>
+
+    <h3>📚 Formations & connaissances</h3>
+    <div class="skills">
+        <span>Administration réseau</span>
+        <span>Administration système</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>MySQL</span>
+        <span>MongoDB</span>
+    </div>
+
+    <h3>🛠️ Outils</h3>
+    <div class="skills">
+        <span>Visual Studio Code</span>
+        <span>GNS3</span>
+        <span>Cisco Packet Tracer</span>
+        <span>Microsoft SQL Server Management Studio</span>
+        <span>Linux</span>
+        <span>Ubuntu Server</span>
+    </div>
+
+</section>
+
+<section id="projects">
+    <h2>Projets</h2>
+
+    <div class="card">
+        <h3> Simulation réseau avec GNS3</h3>
+        <img src="images/gns3.jpg" alt="GNS3">
+        <p>
+            Simulation de réseaux avec routage dynamique, configuration des routeurs
+            et analyse de la connectivité.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Topologie réseau – Cisco Packet Tracer</h3>
+        <img src="images/packettracer.jpg" alt="Cisco Packet Tracer">
+        <p>
+            Mise en place de VLAN, routage inter-VLAN, Spanning Tree,
+            EtherChannel et route par défaut.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3> Administration système – Windows Server</h3>
+        <img src="images/windowsserver.jpg" alt="Windows Server">
+        <p>
+            Création d’un domaine, contrôleur de domaine,
+            gestion des utilisateurs et sécurisation du système.
+        </p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    
+    <div class="contact">
+        <p>📧 Email : <a href="mailto:lyanebessou@gmail.com">lyanebessou@gmail.com</a></p>
+        <p>📱 Téléphone : <a href="tel:+22892741189">+228 92 74 11 89</a></p>
+        <p>💻 GitHub : <a href="https://github.com/lyanebessou-dotcom" target="_blank">lyanebessou-dotcom</a></p>
+    </div>
+
+    <a class="btn" href="mailto:lyanebessou@gmail.com">Me contacter</a>
+
+</section>
+
+<footer>
+    © 2026 - BESSOU-KPEGLO Kwami Lyane
+</footer>
+
+</body>
+</html>
